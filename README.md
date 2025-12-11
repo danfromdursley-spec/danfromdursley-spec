@@ -1,12 +1,12 @@
 # Quantum Design Systems (QDS)
 
-Hi, I’m Dan – building QDS: physics-inspired tools developed almost entirely on an Android phone with AI assistance.
+Hi, I’m Dan – building **physics-inspired tools** almost entirely on an Android phone with AI assistance.
 
-**Current focus**
+**Current focus (3 pillars)**
 
-- 🔋 **QDS Battery Whisperer** – demo for battery stress & ageing, phone-safe  
-- 🌐 **UV-QDS** – mobile hub for QDS experiments  
-- 📈 **QDSX Market Edition** – physics-inspired synthetic data engine  
-- 📱 **Phone–ChatGPT Dev Lab** – case study: 0 → 250+ tools on a phone  
+- 🔋 **QDS Battery Whisperer** – phone-safe demo for battery stress, ageing & correlated noise
+- 📈 **QDSX Market Edition** – data compression & stress-testing for noisy market signals
+- 🌐 **UV-QDS + Phone Dev Lab** – mobile-first QDS lab: 0 → 250+ tools built on a phone
+- 🧬 **Oxford-Village Language Engine** – experimental proto-root & script exploration
 
-Most of this work underpins applications I’m discussing with UKRI, local Growth Hub and industry partners.
+Most of this work underpins applied R&D I’m discussing with **UKRI**, local **Growth Hub** and industry partners.
