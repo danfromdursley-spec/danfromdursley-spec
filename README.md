@@ -12,9 +12,14 @@ I build **offline-first decision tools** (mostly on an Android phone) that turn 
 - Fast demos: **click → run → export** (no login, no setup)
 - “Show your working” by default: assumptions + changes + outputs
 
-## Live demo
-- Battery Whisperer: https://danfromdursley-spec.github.io/QDS-Battery-Whisperer-Demo/
+Live demo
+---------
 
+- Battery Whisperer:  
+  https://danfromdursley-spec.github.io/QDS-Battery-Whisperer-Demo/
+
+- QDS Physics Labs (public pack):  
+  https://danfromdursley-spec.github.io/QDS-Physics-Labs-Demo/www/qds_physics_omega_frontdoor_v3.html
 ## Contact
 Dan Williams (Dursley, UK)  
 📧 danfromdursley@gmail.com • 📱 +44 7960 228 009
