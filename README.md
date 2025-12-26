@@ -30,9 +30,7 @@ I build **offline-first decision tools** (mostly on an Android phone) that turn 
   https://danfromdursley-spec.github.io/QDS-Physics-Labs-Demo/www/qds_physics_omega_frontdoor_v3.html  
 
 - 🎮 **Qutrit Competition Lab · Ultra (neon fairness sandbox)**  
-  https://danfromdursley-spec.github.io/qds-qutrit-competition-lab-ultra/
-
-  _Example path:_ DDO154 → compute χ² → scan QDS distance factor → log result in the Evidence Log.
+  https://danfromdursley-spec.github.io/qds-qutrit-competition-lab-ultra/qutrit_competition_lab_ultra.html
 
   _Example path:_ DDO154 → compute χ² → scan QDS distance factor → log result in the Evidence Log.
 
@@ -41,7 +39,7 @@ I build **offline-first decision tools** (mostly on an Android phone) that turn 
 ## Data & publications
 
 - **QDS variance & cosmology stack** — Zenodo datasets & software  
-  - 10.5281/zenodo.17769921 — *QDS: GR-Compatible Stochastic Kernel Cosmology*  
+  - 10.5281/zenodo.17769921 — *QDS: GR-Compatible Stochasupportingl Cosmology*  
   - 10.5281/zenodo.18056074 — *Stochastic Vacuum Kernel Cosmology: A QDS Variance Model*  
   - 10.5281/zenodo.17451092 — QDS data release (with software and supporting material)
 
