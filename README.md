@@ -27,6 +27,8 @@ I build **offline-first decision tools** (mostly on an Android phone) that turn 
   https://danfromdursley-spec.github.io/QDS-Battery-Whisperer-Demo/
 
 - 🌌 **QDS Physics Labs (public pack)**  
+* 🎮 Qutrit Competition Lab · Ultra (neon fairness sandbox)
+  https://danfromdursley-spec.github.io/qds-qutrit-competition-lab-ultra/
   https://danfromdursley-spec.github.io/QDS-Physics-Labs-Demo/www/qds_physics_omega_frontdoor_v3.html  
 
   _Example path:_ DDO154 → compute χ² → scan QDS distance factor → log result in the Evidence Log.
