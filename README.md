@@ -142,21 +142,23 @@ _Example path:_ DDO154 → compute χ² → scan QDS distance factor → log res
 
 ---
 
-## Data & publications
+## Data & publications (start here)
+If you only click one thing: **Preprint (variance model)** → then **data release** → then **MIT tools**.
 
-**QDS variance & cosmology stack** — Zenodo datasets & software
+**Preprint / papers**
+- 10.5281/zenodo.18056074 — *Stochastic Vacuum Kernel Cosmology: A QDS Variance Model* (core idea + predictions/falsifiers)
+- 
+- 10.5281/zenodo.17769921 — *QDS: GR-Compatible Stochastic Kernel Cosmology* (framework + formalism)
 
-- 10.5281/zenodo.17769921 — *QDS: GR-Compatible Stochastic Kernel Cosmology*  
-- 10.5281/zenodo.18056074 — *Stochastic Vacuum Kernel Cosmology: A QDS Variance Model*  
-- 10.5281/zenodo.17451092 — *QDS data release* (with software and supporting material)  
-- 10.5281/zenodo.17771649 — QDS-related software (MIT-licensed tools)  
-- 10.5281/zenodo.17448726 — *QDS data release v1* (concept DOI: 10.5281/zenodo.17448725)
+**Data / reproducibility**
+- 10.5281/zenodo.17451092 — Data release (supporting material + reproducibility bundle)
+- 
+- 10.5281/zenodo.17448726 — Data release v1 (concept DOI: 10.5281/zenodo.17448725)
 
-**ORCID:** https://orcid.org/0009-0009-5888-5140
+**Software (MIT)**
+- 10.5281/zenodo.17771649 — MIT-licensed tools (offline-first demos / analysis helpers)
 
----
-
-## How I work
+ORCID: 0009-0009-5888-5140predictionsow I work
 
 - **Build fast. Ship clean. Prove value.**  
 - Phone-first dev (Termux + local web tools) → exportable evidence packs.  
