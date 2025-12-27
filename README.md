@@ -1,8 +1,7 @@
-# Dan Williams — Quantum Design Systems (QDS)
-
+# Dan Williams — Quantum Dynamic Systems (QDS)
 *Reducing noise from information.*
 
-I build **offline-first decision tools** (mostly on an Android phone) that turn messy real-world signals into **board-safe outputs**.
+I build **offline-first decision tools** (mostly on an Android phone) that turn messy real-world signals into **board-safe outputs**.  
 
 Think: a **scientific calculator for noisy systems** — batteries, markets, cosmology — wrapped in phone-safe web apps you can walk into a meeting.
 
@@ -14,6 +13,12 @@ Think: a **scientific calculator for noisy systems** — batteries, markets, cos
 - 📱 Built & demoed **entirely from a phone** (Termux + static HTML/JS)
 - 🧪 Open demos + reproducible runs + public datasets (Zenodo, GitHub)
 - 🎯 Goal: give people **one-click, auditable experiments** instead of hand-wavy slides — especially in board and council rooms
+
+### Outcomes / proof (at a glance)
+
+- **Battery Whisperer** → flags high-stress / ageing patterns on NASA RW battery datasets in minutes, with screenshots you can drop straight into a slide.
+- **Revenue Floor** → turns rough assumptions into exportable, capacity-capped revenue scenarios you can use in grant, finance, and council packs.
+- **Signal Compression / Stress-Testing** → stress-tests noisy, correlated time-series (markets, sensors, ops) to see what structure actually survives turbulence.
 
 ---
 
@@ -38,10 +43,10 @@ Designed for:
 
 Evidence packs for grant, finance, and board conversations.
 
-- Realistic revenue plans: **capacity-capped, assumption-audited**  
-- Answers “**What does this actually look like in cash & risk?**” rather than hockey-sticks  
-- Tuned for  
-  - grant applications (clear linkage from assumptions → outputs)  
+- Realistic revenue plans: **capacity-capped, assumption-audited**
+- Answers **“What does this actually look like in cash & risk?”** rather than hockey-sticks
+- Tuned for:
+  - grant applications (clear linkage from assumptions → outputs)
   - explorer decks & council briefings (stress-test scenarios, not just one line)
 
 ---
@@ -50,12 +55,12 @@ Evidence packs for grant, finance, and board conversations.
 
 For any time-series where noise is part of the story (markets, sensors, operations).
 
-- Tools for **noisy, correlated time-series** (markets, sensors, operational data)  
-- Physics-inspired **“noise as a resource”** view — test what survives turbulence  
+- Tools for **noisy, correlated time-series** (markets, sensors, operational data)
+- Physics-inspired **“noise as a resource”** view — test what survives turbulence
 - Focus on explainable knobs:
-  - correlation / length  
-  - variance / volatility  
-  - duty-cycle / stress history  
+  - correlation length
+  - variance / volatility
+  - duty-cycle / stress history
 
 ---
 
@@ -63,12 +68,12 @@ For any time-series where noise is part of the story (markets, sensors, operatio
 
 Most of the rooms that matter don’t live in perfect cloud-SaaS land.
 
-- Works in **low-connectivity environments** (site visits, workshops, council rooms)  
-- Fast demos: **click → run → export** (no login, no setup)  
-- “Show your working” by default — inputs, assumptions, and outputs all visible  
+- Works in **low-connectivity environments** (site visits, workshops, council rooms)
+- Fast demos: **click → run → export** (no login, no setup)
+- “Show your working” by default — inputs, assumptions, and outputs all visible
 - No back-end, no external API calls — everything runs **client-side** for:
-  - easy auditing & pen-testing  
-  - air-gapped use on sensitive networks  
+  - easy auditing & pen-testing
+  - air-gapped use on sensitive networks
   - long-term reproducibility (HTML files keep working)
 
 ---
@@ -87,7 +92,7 @@ All of these run purely in the browser. No tracking, no back-end, just static pa
 
 - **QDS Physics Labs (public pack)**  
   Front door into multiple physics / cosmology tools (rotation curves, variance labs, etc.).  
-  https://danfromdursley-spec.github.io/QDS-Physics-Labs-Demo/www/qds_physics_omega_frontdoor_v3.html  
+  https://danfromdursley-spec.github.io/QDS-Physics-Labs-Demo/www/qds_physics_omega_frontdoor_v3.html
 
 - **QDS Binary Pulsar Constraint Lab · One-Button NEON**  
   One-click Yukawa-style envelope sanity sweep for binary pulsars.  
@@ -98,9 +103,7 @@ All of these run purely in the browser. No tracking, no back-end, just static pa
 
 - **Qutrit Competition Lab · Ultra (neon fairness sandbox)**  
   Tweak qutrit transition rules, run tournaments, and see which strategies survive noisy play.  
-  https://danfromdursley-spec.github.io/qds-qutrit-competition-lab-ultra/qutrit_competition_lab_ultra.html  
-
-_Example path:_ DDO154 → compute χ² → scan QDS distance factor → log result in the Evidence Log.
+  https://danfromdursley-spec.github.io/qds-qutrit-competition-lab-ultra/qutrit_competition_lab_ultra.html
 
 ---
 
@@ -136,29 +139,35 @@ _Example path:_ DDO154 → compute χ² → scan QDS distance factor → log res
 - **Languages:** TypeScript / JavaScript, Python, Bash, HTML5 Canvas / SVG  
 - **Data:** public datasets (NASA battery RW series, open astronomy catalogues, Zenodo releases, etc.)  
 - **Design goals:**
-  - Offline-capable, single-file or small-bundle tools  
-  - Zero external JS dependencies where possible  
+  - Offline-capable, single-file or small-bundle tools
+  - Zero external JS dependencies where possible
   - Clear separation of **model, UI, and evidence export**
 
 ---
 
-## Data & publications (start here)
+## Data & publications
+
 If you only click one thing: **Preprint (variance model)** → then **data release** → then **MIT tools**.
 
 **Preprint / papers**
-- 10.5281/zenodo.18056074 — *Stochastic Vacuum Kernel Cosmology: A QDS Variance Model* (core idea + predictions/falsifiers)
-- 
+
+- 10.5281/zenodo.18056074 — *Stochastic Vacuum Kernel Cosmology: A QDS Variance Model* (core idea + predictions/falsifiers)  
 - 10.5281/zenodo.17769921 — *QDS: GR-Compatible Stochastic Kernel Cosmology* (framework + formalism)
 
 **Data / reproducibility**
-- 10.5281/zenodo.17451092 — Data release (supporting material + reproducibility bundle)
-- 
+
+- 10.5281/zenodo.17451092 — Data release (supporting material + reproducibility bundle)  
 - 10.5281/zenodo.17448726 — Data release v1 (concept DOI: 10.5281/zenodo.17448725)
 
 **Software (MIT)**
+
 - 10.5281/zenodo.17771649 — MIT-licensed tools (offline-first demos / analysis helpers)
 
-ORCID: 0009-0009-5888-5140predictionsow I work
+**ORCID:** 0009-0009-5888-5140
+
+---
+
+## How I work
 
 - **Build fast. Ship clean. Prove value.**  
 - Phone-first dev (Termux + local web tools) → exportable evidence packs.  
@@ -171,16 +180,11 @@ ORCID: 0009-0009-5888-5140predictionsow I work
 
 If you:
 
-- have data you’d like stress-tested (batteries, markets, sensors, astronomy),  
-- want a **phone-safe demo** built around your system, or  
+- have data you’d like stress-tested (batteries, markets, sensors, astronomy),
+- want a **phone-safe demo** built around your system, or
 - are looking for a collaborator who’s comfortable living at the **physics ⇄ software ⇄ business** boundary,
 
-then feel free to reach out.
+then feel free to reach out:
 
----
-
-## Contact
-
-📍 Dursley, UK  
-📧 danfromdursley@gmail.com  
-🌐 https://github.com/danfromdursley-spec
+- 📧 **Email:** danfromdursley@gmail.com  
+- 🔗 **ORCID:** https://orcid.org/0009-0009-5888-5140
