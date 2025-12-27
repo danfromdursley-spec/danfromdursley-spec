@@ -1,11 +1,10 @@
-
 # Dan Williams — Quantum Design Systems (QDS)
 
 *Reducing noise from information.*
 
 I build **offline-first decision tools** (mostly on an Android phone) that turn messy real-world signals into **board-safe outputs**.
 
-Think: a **scientific calculator for noisy systems** — batteries, markets, cosmology — wrapped in phone-safe web apps you can take into a room, even with poor Wi-Fi.
+Think: a **scientific calculator for noisy systems** — batteries, markets, cosmology — wrapped in phone-safe web apps you can walk into a meeting.
 
 ---
 
@@ -13,12 +12,12 @@ Think: a **scientific calculator for noisy systems** — batteries, markets, cos
 
 - 🔋 **Battery analytics** • 📊 **Revenue modelling** • 🧠 **Signal compression**
 - 📱 Built & demoed **entirely from a phone** (Termux + static HTML/JS)
-- 🧪 **Open demos + reproducible runs** + public datasets (Zenodo, GitHub)
-- 🎯 Goal: give people **one-click, auditable experiments** instead of hand-wavy slides
+- 🧪 Open demos + reproducible runs + public datasets (Zenodo, GitHub)
+- 🎯 Goal: give people **one-click, auditable experiments** instead of hand-wavy slides — especially in board and council rooms
 
 ---
 
-## Current focus (3 pillars)
+## Core tools (3 pillars)
 
 ### 1) Battery Whisperer — stress & ageing clarity
 
@@ -27,40 +26,46 @@ Tools for teams deploying or funding battery assets (home storage, fleets, off-g
 - Battery stress / ageing insights for **real duty-cycles**, not lab fairy-tales  
 - Simple, explainable metrics you can screenshot straight into a slide  
 - Built on public **NASA battery RW series** + synthetic stress scenarios  
-- Designed for:
-  - Installers & OEMs wanting **evidence for customers and insurers**
-  - Councils & funders wanting **risk-aware deployment plans**
+
+Designed for:
+
+- **Installers & OEMs** wanting evidence for customers and insurers  
+- **Councils & funders** wanting **risk-aware deployment plans**
+
+---
 
 ### 2) Revenue Floor — reality-checked plans
 
-Evidence packs for finance, grants, and board conversations.
+Evidence packs for grant, finance, and board conversations.
 
-- Realistic revenue plans: **capacity-capped and assumption-audited**
-- Answers “**what does this actually look like in cash & risk?**” rather than hockey-sticks
-- Tuned for:
-  - Grant applications (clear linkage from assumptions → outputs)
-  - Investor decks & council briefings (stress-test scenarios, not just one line)
+- Realistic revenue plans: **capacity-capped, assumption-audited**  
+- Answers “**What does this actually look like in cash & risk?**” rather than hockey-sticks  
+- Tuned for  
+  - grant applications (clear linkage from assumptions → outputs)  
+  - explorer decks & council briefings (stress-test scenarios, not just one line)
+
+---
 
 ### 3) Signal Compression / Stress-Testing — noisy data as an asset
 
 For any time-series where noise is part of the story (markets, sensors, operations).
 
-- Tools for **noisy, correlated time-series** (markets, sensors, operational data)
-- Physics-inspired view: **“noise as a resource”** — test what survives turbulence
+- Tools for **noisy, correlated time-series** (markets, sensors, operational data)  
+- Physics-inspired **“noise as a resource”** view — test what survives turbulence  
 - Focus on explainable knobs:
-  - correlation length
-  - variance / volatility
-  - duty-cycle / stress history
+  - correlation / length  
+  - variance / volatility  
+  - duty-cycle / stress history  
 
 ---
 
 ## Why offline-first
 
-Most of my users don’t live in perfect cloud-SaaS land.
+Most of the rooms that matter don’t live in perfect cloud-SaaS land.
 
-- Works in **low-connectivity environments** (site visits, workshops, council rooms)
-- Fast demos: **click → run → export** (no login, no setup)
-- “Show your working” by default — inputs, assumptions, and outputs all visible
+- Works in **low-connectivity environments** (site visits, workshops, council rooms)  
+- Fast demos: **click → run → export** (no login, no setup)  
+- “Show your working” by default — inputs, assumptions, and outputs all visible  
 - No back-end, no external API calls — everything runs **client-side** for:
   - easy auditing & pen-testing  
   - air-gapped use on sensitive networks  
@@ -82,7 +87,7 @@ All of these run purely in the browser. No tracking, no back-end, just static pa
 
 - **QDS Physics Labs (public pack)**  
   Front door into multiple physics / cosmology tools (rotation curves, variance labs, etc.).  
-  https://danfromdursley-spec.github.io/QDS-Physics-Labs-Demo/www/qds_physics_omega_frontdoor_v3.html
+  https://danfromdursley-spec.github.io/QDS-Physics-Labs-Demo/www/qds_physics_omega_frontdoor_v3.html  
 
 - **QDS Binary Pulsar Constraint Lab · One-Button NEON**  
   One-click Yukawa-style envelope sanity sweep for binary pulsars.  
@@ -95,7 +100,7 @@ All of these run purely in the browser. No tracking, no back-end, just static pa
   Tweak qutrit transition rules, run tournaments, and see which strategies survive noisy play.  
   https://danfromdursley-spec.github.io/qds-qutrit-competition-lab-ultra/qutrit_competition_lab_ultra.html  
 
-  *Example path:* DDO154 → compute χ² → scan QDS distance factor → log result in the Evidence Log.
+_Example path:_ DDO154 → compute χ² → scan QDS distance factor → log result in the Evidence Log.
 
 ---
 
@@ -103,25 +108,25 @@ All of these run purely in the browser. No tracking, no back-end, just static pa
 
 ### 🔬 Scientists & engineers
 
-- Want to test “**what if?**” constraints quickly on real or public data  
-- Need transparent, modifiable models rather than opaque services
+- Want to test **“what if?”** constraints quickly on real or public data  
+- Need transparent, modifiable models rather than opaque services  
 
 ### 💼 Founders, operators, and boards
 
 - Need **sanity-checked numbers** for batteries, hardware rollouts, or noisy operations  
-- Prefer tools that log assumptions and can be dropped straight into a diligence pack
+- Prefer tools that log assumptions and can be dropped straight into a diligence pack  
 
-### 🏛️ Councils, funders, and public bodies
+### 🧱 Councils, funders, and public bodies
 
 - Need **offline-capable demos** that work in meeting rooms and site cabins  
 - Want evidence that:
   - connects **data → risk → decision**, and  
-  - can be re-run later without a platform subscription
+  - can be re-run later without a platform subscription  
 
 ### 🧪 Students & curious hackers
 
-- Looking for real examples of doing non-trivial science & engineering **without a big lab**
-- Interested in Termux / phone-first development, reproducible experiments, and physics-flavoured simulations
+- Looking for real examples of doing non-trivial science & engineering **without a big lab**  
+- Interested in Termux / phone-first development, reproducible experiments, and physics-flavoured simulations  
 
 ---
 
@@ -133,18 +138,18 @@ All of these run purely in the browser. No tracking, no back-end, just static pa
 - **Design goals:**
   - Offline-capable, single-file or small-bundle tools  
   - Zero external JS dependencies where possible  
-  - Clear separation of **model**, **UI**, and **evidence export**
+  - Clear separation of **model, UI, and evidence export**
 
 ---
 
 ## Data & publications
 
-**QDS variance & cosmology stack — Zenodo datasets & software**
+**QDS variance & cosmology stack** — Zenodo datasets & software
 
 - 10.5281/zenodo.17769921 — *QDS: GR-Compatible Stochastic Kernel Cosmology*  
 - 10.5281/zenodo.18056074 — *Stochastic Vacuum Kernel Cosmology: A QDS Variance Model*  
 - 10.5281/zenodo.17451092 — *QDS data release* (with software and supporting material)  
-- 10.5281/zenodo.17771649 — *QDS-related software (MIT-licensed tools)*  
+- 10.5281/zenodo.17771649 — QDS-related software (MIT-licensed tools)  
 - 10.5281/zenodo.17448726 — *QDS data release v1* (concept DOI: 10.5281/zenodo.17448725)
 
 **ORCID:** https://orcid.org/0009-0009-5888-5140
@@ -166,7 +171,7 @@ If you:
 
 - have data you’d like stress-tested (batteries, markets, sensors, astronomy),  
 - want a **phone-safe demo** built around your system, or  
-- are looking for a collaborator who’s comfortable living at the **physics ↔ software ↔ business** boundary,
+- are looking for a collaborator who’s comfortable living at the **physics ⇄ software ⇄ business** boundary,
 
 then feel free to reach out.
 
