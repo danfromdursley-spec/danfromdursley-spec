@@ -34,9 +34,8 @@ I build **offline-first decision tools** (mostly on an Android phone) that turn 
 
   _Example path:_ DDO154 → compute χ² → scan QDS distance factor → log result in the Evidence Log.
 
-🌠 QDS Binary Pulsar Constraint Lab · One-Button NEON — fast Yukawa envelope sanity sweep for binary pulsars
-
----
+[🌠 QDS Binary Pulsar Constraint Lab · One-Button NEON — fast Yukawa envelope sanity sweep for binary pulsars]
+ https://danfromdursley-spec.github.io/QDS-Physics-Labs-Demo/www/qds_pulsar_onebutton_neon.htmlhttps
 
 ## Data & publications
 
