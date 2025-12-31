@@ -2,8 +2,8 @@
 *Reducing noise from information.*
 
 ## 💷 Pricing (offline-first tools)
-- **Pricing Menu (internal / client toggle)**  
-  - Internal: https://danfromdursley-spec.github.io/QDS-Physics-Labs-Demo/www/qds_pricing_menu_v1.html  
+- **Pricing Menu 
+  
   - Client: https://danfromdursley-spec.github.io/QDS-Physics-Labs-Demo/www/qds_pricing_menu_v1.html?mode=client  
 
 ---
